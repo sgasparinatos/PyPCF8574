@@ -1,9 +1,6 @@
 import smbus
 import math
 
-#lib for
-
-
 class PyPCF8574:
 
     def __init__(self, addr=0x20, bus=1):
