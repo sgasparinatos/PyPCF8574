@@ -7,12 +7,12 @@ The code simple and self explanatory. I used for raspberry pi but it should work
 
 ## Code Example
 
-pcf = PyPCF8547(0x20, 1)
+pcf = PyPCF8547(0x20, 1) \# Create object
 
 pcf.set_pin(6, True)
 \# Set Pin
 
-print pcf.get_pin(6)
+pcf.get_pin(6)
 \# Get Pin
 
 ## Motivation
